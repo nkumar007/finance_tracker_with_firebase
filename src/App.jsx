@@ -8,9 +8,9 @@ import SignUp from "./pages/signUp/SignUp";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
-  { path: "/login", element: <Login /> },
+  { path: "login", element: <Login /> },
   {
-    path: "/signup",
+    path: "signup",
     element: <SignUp />,
   },
 ]);
