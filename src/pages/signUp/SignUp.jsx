@@ -16,15 +16,27 @@ const SignUp = () => {
       <h2>Signup</h2>
       <label>
         <span>email:</span>
-        <input type="email" onChange={(e) => setEmail(e.target.value)} />
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
       </label>
       <label>
         <span>password:</span>
-        <input type="password" onChange={(e) => setPassword(e.target.value)} />
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
       </label>
       <label>
         <span>displayname:</span>
-        <input type="text" onChange={(e) => setDisplayName(e.target.value)} />
+        <input
+          type="text"
+          value={displayName}
+          onChange={(e) => setDisplayName(e.target.value)}
+        />
       </label>
       <button className="btn">SignUp</button>
     </form>
